@@ -3,6 +3,7 @@
   "type": "service-provider",
   "description": "Provides Symfony2 Container Aware controllers within Silex",
   "keywords": ["di", "dependency injection", "container aware"],
+  "license": "MIT",
   "version": "0.1.0",
 
   "authors": [
