@@ -1,6 +1,6 @@
 {
   "name": "fudge/silex-container-aware",
-  "type": "dependency injection",
+  "type": "service-provider",
   "description": "Provides Symfony2 Container Aware controllers within Silex",
   "keywords": ["di", "dependency injection", "container aware"],
   "version": "0.1.0",
