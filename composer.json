@@ -1,0 +1,31 @@
+{
+  "name": "fudge/silex-container-aware",
+  "type": "dependency injection",
+  "description": "Provides Symfony2 Container Aware controllers within Silex",
+  "keywords": ["di", "dependency injection", "container aware"],
+  "version": "0.1.0",
+
+  "authors": [
+    {
+      "name": "Ben Colegate",
+      "email": "ben@bencolegate.co.uk",
+      "homepage": "https://github.com/BennyC"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Fudge\\SilexComponents\\ContainerAware\\": "src/"
+    }
+  },
+
+  "require": {
+    "php": ">= 5.4",
+    "silex/silex": "~1.1"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "~4",
+    "squizlabs/php_codesniffer": "~1"
+  }
+}
