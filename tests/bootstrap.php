@@ -1,4 +1,4 @@
 <?php
 
 $loader = require __DIR__.'/../vendor/autoload.php';
-$loader->add("Fudge\\SilexComponents\\ContainerAware\\", __DIR__);
+$loader->add("Fudge\\SilexComponents\\", __DIR__);

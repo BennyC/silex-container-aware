@@ -16,7 +16,7 @@
 
   "autoload": {
     "psr-4": {
-      "Fudge\\SilexComponents\\ContainerAware\\": "src/"
+      "Fudge\\SilexComponents\\": "src/"
     }
   },
 
