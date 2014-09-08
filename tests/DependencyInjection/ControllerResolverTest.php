@@ -36,13 +36,8 @@ class ControllerResolverTest extends \PHPUnit_Framework_TestCase
     }
 }
 
-interface Foo
-{
-}
-
-class Bar implements Foo
-{
-}
+interface Foo {}
+class Bar implements Foo {}
 
 class ControllerExample
 {

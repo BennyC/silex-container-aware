@@ -18,6 +18,12 @@ class ControllerResolver extends \Silex\ControllerResolver
         return [$this->buildController($class), $method];
     }
 
+    /**
+     * Will go through the controller to find all of the dependencies, will
+     * then find them within the container.
+     * @param string
+     * @return mixed
+     */
     public function buildController($controllerName)
     {
         $reflection = new \ReflectionClass($controllerName);
